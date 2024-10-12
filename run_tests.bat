@@ -1,7 +1,5 @@
 @echo off
 
-cd /d %~dp0scripts\python\
-
 echo Rodando testes em Python...
 python -m unittest test_gerador_numeros_primos.py
 set PYTHON_RESULT=%ERRORLEVEL%
